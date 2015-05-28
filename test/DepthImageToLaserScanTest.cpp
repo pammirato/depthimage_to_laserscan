@@ -61,7 +61,7 @@ TEST(ConvertTest, setupLibrary)
   dtl_.set_range_limits(range_min, range_max);
   const int scan_height = 1;
   dtl_.set_scan_height(scan_height);
-  const std::string output_frame = "camera_depth_frame";
+  const std::string output_frame = "kinect2_rgb_optical_frame";
   dtl_.set_output_frame(output_frame);
   
   depth_msg_.reset(new sensor_msgs::Image);
